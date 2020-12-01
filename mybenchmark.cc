@@ -118,7 +118,7 @@ char* uint32_to_string_0
 
         memcpy( out_str + 2u, &in_2, 8u );
 
-        return out_str + 9u;
+        return out_str + 10u;
     }
     else
     {
@@ -130,7 +130,7 @@ char* uint32_to_string_0
 
         memcpy( out_str + 1u, &in_2, 8u );
 
-        return out_str + 10u;
+        return out_str + 9u;
     }
 }
 
